@@ -1,4 +1,4 @@
-document.addEventListener( "deviceready", onDeviceReady );
+$(document).ready( onDeviceReady );
 
 document.addEventListener( "touchend", function(event){
     //this function is used to prevent duplicate "tap" events
@@ -36,9 +36,14 @@ function onDeviceReady( event ) {
     
     //initialize salesforce wrapper
     sfw = new SalesforceWrapper();
+    sfw.login( setupHomeView );
+        var query = "SELECT Email__c,First__c,Id,Last__c,Latitude__c,Longitude__c,Notes__c,Telephone__c "+
+    "FROM Lead__c " + 
+    "ORDER BY Last__c, First__c";
     
+    sfw.client.query( query, onQuerySuccess, onQueryError );
     //load Mousetache HTML templates
-    for (var key in templates) {
+  /*  for (var key in templates) {
         (function() {
             var _key = key.toString();
             if ( _key != "loaded" && _key != "requested" ){
@@ -51,7 +56,7 @@ function onDeviceReady( event ) {
                 $.get( templates[ _key ], templateLoaded );
              }
          })();
-    }
+    }*/
 }
 
 function onTemplateLoaded(template, key) {
@@ -278,7 +283,8 @@ function queryRecords() {
 function onQuerySuccess( response ) {
     
     lastData = { "records": response.records };
-    renderListData();
+    //renderListData();
+    console.log(response.records);
 }
 
 function onQueryError( request, status, error ) {
