@@ -1,4 +1,4 @@
-[
+{ "records": [
   {
     "Airline":"Air Canada",
     "Rate":0.63,
@@ -419,4 +419,5 @@
     "No. Flights":"1.05 Million",
     "Lost":""
   }
-]
+] 
+}
