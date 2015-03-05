@@ -1,0 +1,35 @@
+{"records": [
+  {
+    "Insurance Offered":"Emergency Medical",
+    "Coverage Amounts (Per Insured Per Trip in $CAD)":"Up to $5,000,000"
+  },
+  {
+    "Insurance Offered":"Trip Cancellation & Trip Interruption",
+    "Coverage Amounts (Per Insured Per Trip in $CAD)":"Cancellation & Interruption Combined Amount:Single-Trip Plan – up to sum purchased per insured per tripSingle-Trip All-Inclusive Plan – up to $5,000 per insured per tripMulti-Trip All-Inclusive Plans – up to $5,000 per insured per trip to a maximum of $8,000 per policy year"
+  },
+  {
+    "Insurance Offered":"BounceBack Benefit Option",
+    "Coverage Amounts (Per Insured Per Trip in $CAD)":"Up to $2,000"
+  },
+  {
+    "Insurance Offered":"Baggage Loss or Damage",
+    "Coverage Amounts (Per Insured Per Trip in $CAD)":"Up to $1,000 per trip. For Multi-Trip All Inclusive Plan, up to $3,000 per policy year"
+  },
+  {
+    "Insurance Offered":"Baggage Delay",
+    "Coverage Amounts (Per Insured Per Trip in $CAD)":"Up to $500 per trip. For Multi-Trip All Inclusive Plan, up to $1,500 per policy year"
+  },
+  {
+    "Insurance Offered":"Flight Accident",
+    "Coverage Amounts (Per Insured Per Trip in $CAD)":"$100,000 for death or double dismemberment, or $50,000 for single dismemberment"
+  },
+  {
+    "Insurance Offered":"Travel Accident",
+    "Coverage Amounts (Per Insured Per Trip in $CAD)":"$50,000 for death or double dismemberment, or $25,000 for single dismemberment"
+  },
+  {
+    "Insurance Offered":"Acts of Terrorism Coverage applicable to Emergency Medical, Trip Cancellation & Trip Interruption",
+    "Coverage Amounts (Per Insured Per Trip in $CAD)":"Overall maximum for all policies issued by us shall be:Emergency Medical is $35 million, per act of terrorism, for up to 2 acts of terrorism within a calendar yearTrip Cancellation & Trip Interruption is $2.5 million, per act of terrorism, for up to 2 acts of terrorism within a calendar year"
+  }
+]
+}
